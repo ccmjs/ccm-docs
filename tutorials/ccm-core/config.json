@@ -1,0 +1,20 @@
+{
+  "backwards-compatibility": {
+    "title": "Backwards Compatibility"
+  },
+  "data-management": {
+    "title": "Data Management"
+  },
+  "html-templating": {
+    "title": "HTML Templating"
+  },
+  "instance-communication": {
+    "title": "Instance Communication"
+  },
+  "loading-of-resources": {
+    "title": "Loading of Resources"
+  },
+  "usage-of-components": {
+    "title": "Usage of Components"
+  }
+}

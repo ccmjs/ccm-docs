@@ -1,0 +1,37 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc"]
+  },
+  "source": {
+    "include": ["./../ccm/ccm.js"]
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "systemName"            : "ccmjs",
+    "footer"                : "<p style='text-align:center'>This Documentation is written by the Developer of <i>ccmjs</i>: <a href='mailto:andre.kless@web.de'>André Kless</a></p>",
+    "copyright"             : "<a href='https://en.wikipedia.org/wiki/MIT_License'>MIT Licence</a>",
+    "includeDate"           : true,
+    "navType"               : "inline",
+    "theme"                 : "cerulean",
+    "linenums"              : true,
+    "collapseSymbols"       : false,
+    "inverseNav"            : true,
+    "outputSourceFiles"     : true,
+    "outputSourcePath"      : true,
+    "dateFormat"            : "",
+    "syntaxTheme"           : "default",
+    "sort"					: true,
+    "search"                : true
+  },
+  "opts": {
+    "destination": "./../ccm/docs/",
+    "encoding": "utf8",
+    "readme": "./../ccm/README.md",
+    "recurse": true,
+    "template": "./node_modules/ink-docstrap/template",
+    "tutorials": "./tutorials/ccm-core"
+  }
+}
