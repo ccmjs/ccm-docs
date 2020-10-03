@@ -1,16 +1,18 @@
 {
+  "description": "generates the documentation for the ES6 module that exports useful help functions for <i>ccmjs</i> component developers.",
   "tags": {
     "allowUnknownTags": true,
     "dictionaries": ["jsdoc"]
   },
   "source": {
-    "include": ["./../ccm/ccm.js"]
+    "include": ["./../akless-components/modules/helper.mjs"],
+    "includePattern": ".+\\.(js(doc|x)?|mjs)$"
   },
   "plugins": [
     "plugins/markdown"
   ],
   "templates": {
-    "systemName"            : "ccmjs",
+    "systemName"            : "helper.mjs",
     "footer"                : "<p style='text-align:center'>This Documentation is written by the Developer of <i>ccmjs</i>: <a href='mailto:andre.kless@web.de'>André Kless</a></p>",
     "copyright"             : "<a href='https://en.wikipedia.org/wiki/MIT_License'>MIT Licence</a>",
     "includeDate"           : true,
@@ -27,11 +29,9 @@
     "search"                : true
   },
   "opts": {
-    "destination": "./../ccm/docs/",
+    "destination": "./../akless-components/modules/docs/",
     "encoding": "utf8",
-    "readme": "./../ccm/README.md",
     "recurse": true,
-    "template": "./node_modules/ink-docstrap/template",
-    "tutorials": "./tutorials/ccm-core"
+    "template": "./node_modules/ink-docstrap/template"
   }
 }

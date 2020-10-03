@@ -1,2 +1,2 @@
 # docs-generation
-Contains the scripts for generating the documentations.
+Contains the scripts to generate documentations around the <i>ccmjs</i> technology.

@@ -4,6 +4,7 @@
     "jsdoc": "^3.6.5"
   },
   "scripts": {
-    "ccm-core": "jsdoc -c jsdoc.json"
+    "core": "jsdoc -c jsdoc-core.json",
+    "helper": "jsdoc -c jsdoc-helper.json"
   }
 }
