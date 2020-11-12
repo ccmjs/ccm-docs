@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "ink-docstrap": "^1.3.2",
-    "jsdoc": "^3.6.5"
+    "jsdoc": "^3.6.5",
+    "npm": "^6.14.8"
   },
   "scripts": {
     "core": "jsdoc -c jsdoc-core.json",
