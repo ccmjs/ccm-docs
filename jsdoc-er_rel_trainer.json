@@ -1,0 +1,38 @@
+{
+  "description": "Generates the documentation for the <i>ccmjs</i>-based web component for ER-REL Trainer.",
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [ "jsdoc" ]
+  },
+  "source": {
+    "include": [
+      "./../er_rel_trainer/ccm.er_rel_trainer.js",
+      "./../er_rel_trainer/configs.js",
+      "./../er_rel_trainer/resources/templates.js"
+    ]
+  },
+  "plugins": [ "plugins/markdown" ],
+  "templates": {
+    "systemName"            : "ER-REL Trainer",
+    "footer"                : "<p style='text-align:center'>This documentation is written by the developer of the ccmjs-based web component for ER-REL Trainer: <a href='mailto:andre.kless@h-brs.de'>André Kless</a></p>",
+    "copyright"             : "<a href='https://github.com/EILD-nrw'>EILD.nrw 2022</a>",
+    "includeDate"           : true,
+    "navType"               : "inline",
+    "theme"                 : "cerulean",
+    "linenums"              : true,
+    "collapseSymbols"       : false,
+    "inverseNav"            : true,
+    "outputSourceFiles"     : true,
+    "outputSourcePath"      : true,
+    "dateFormat"            : "",
+    "syntaxTheme"           : "default",
+    "sort"					        : true,
+    "search"                : true
+  },
+  "opts": {
+    "destination": "./../er_rel_trainer/docs/",
+    "encoding": "utf8",
+    "recurse": true,
+    "template": "./node_modules/ink-docstrap/template"
+  }
+}
