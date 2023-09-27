@@ -1,8 +1,9 @@
 ### Overview
-_ccmjs_ provides a service for asynchronous loading of resources. It could be used with the method {@link ccm.load}.
+The _ccmjs_ framework provides a service for asynchronous loading of resources. It could be used with the method {@link ccm.load}.
 You can load resources like HTML, CSS, Images, JavaScript, Modules, JSON and XML data on-demand and cross-domain.
-On a single call several resources can be loaded at once. It can be flexibly controlled which resources are load in serial and which in parallel.
-{@link ccm.load} can be used in an [instance configuration]{@link ccm.types.instance_config} to define dependencies to other resources.
+On a single call several resources can be loaded at once. It can be flexibly controlled which resources are loaded in serial and which in parallel.
+{@link ccm.load} can be used to define dependencies to other resources in [instance configurations]{@link ccm.types.instance_config}.
+See {@tutorial loading-of-resources} to learn everything about this method. There are also more examples how to use it.
 
 ### Simplest Case: Loading by URL
 In the simplest case, only an URL is passed as a parameter for a resource to be loaded:

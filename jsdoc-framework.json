@@ -1,18 +1,18 @@
 {
-  "description": "generates the documentation for the <i>ccmjs</i> core script",
+  "description": "Generates the API documentation for the <i>ccmjs</i> framework.",
   "tags": {
     "allowUnknownTags": true,
     "dictionaries": ["jsdoc"]
   },
   "source": {
-    "include": ["./../ccm/ccm.js"]
+    "include": ["./../framework/ccm.js"]
   },
   "plugins": [
     "plugins/markdown"
   ],
   "templates": {
     "systemName"            : "ccmjs",
-    "footer"                : "<p style='text-align:center'>This Documentation is written by the Developer of <i>ccmjs</i>: <a href='mailto:andre.kless@web.de'>André Kless</a></p>",
+    "footer"                : "<p style='text-align:center'>This Documentation is written by the Developer of the <i>ccmjs</i> framework: <a href='mailto:andre.kless@web.de'>André Kless</a></p>",
     "copyright"             : "<a href='https://en.wikipedia.org/wiki/MIT_License'>MIT Licence</a>",
     "includeDate"           : true,
     "navType"               : "inline",
@@ -24,15 +24,14 @@
     "outputSourcePath"      : true,
     "dateFormat"            : "",
     "syntaxTheme"           : "default",
-    "sort"					: true,
+    "sort"					        : true,
     "search"                : true
   },
   "opts": {
-    "destination": "./../ccm/docs/",
+    "destination": "./../framework/api_docs/",
     "encoding": "utf8",
-    "readme": "./../ccm/README.md",
+    "readme": "./../framework/README.md",
     "recurse": true,
-    "template": "./node_modules/ink-docstrap/template",
-    "tutorials": "./tutorials/ccm-core"
+    "template": "./node_modules/ink-docstrap/template"
   }
 }
